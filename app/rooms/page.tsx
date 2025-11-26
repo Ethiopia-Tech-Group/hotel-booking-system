@@ -591,7 +591,7 @@ export default function RoomListing() {
           >
             <div className="inline-flex items-center gap-2 text-sm text-accent">
               <div className="w-8 h-px bg-accent" />
-              <span>Premier Luxury Hotel</span>
+              <span>Premier Hyatt Hotel</span>
               <div className="w-8 h-px bg-accent" />
             </div>
           </motion.div>

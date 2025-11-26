@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Luxury Hotel - Addis Ababa",
+  title: "Hyatt Hotel - Addis Ababa",
   description: "Experience luxury hospitality with stunning Entoto Mountain views in Ethiopia's vibrant capital",
 };
 

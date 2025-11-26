@@ -14,7 +14,7 @@ export default function Footer() {
               <div className="h-8 w-8 bg-primary rounded-md flex items-center justify-center">
                 <span className="text-primary-foreground font-bold text-lg">H</span>
               </div>
-              <span className="text-xl font-light text-foreground">Luxury Hotel</span>
+              <span className="text-xl font-light text-foreground">Hyatt Hotel</span>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed">
               Experience authentic Ethiopian hospitality with modern luxury in the heart of Addis Ababa.
@@ -113,7 +113,7 @@ export default function Footer() {
         <div className="mt-12 pt-8 border-t border-border">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm text-muted-foreground">
-              © {currentYear} Luxury Hotel. All rights reserved.
+              © {currentYear} Hyatt Hotel. All rights reserved.
             </p>
             <div className="flex gap-6">
               <Link href="/privacy" className="text-sm text-muted-foreground hover:text-primary transition-colors">

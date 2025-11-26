@@ -51,7 +51,7 @@ export default function PetPolicySection() {
 
             <p className="text-lg text-muted-foreground leading-relaxed">
               We understand that pets are part of the family. That's why we welcome 
-              well-behaved furry companions at Luxury Hotel with our comprehensive pet policy.
+              well-behaved furry companions at Hyatt Hotel with our comprehensive pet policy.
             </p>
 
             <div className="space-y-4 pt-4">
