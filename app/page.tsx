@@ -10,6 +10,9 @@ import BookingForm from "@/components/booking-form"
 import ConfirmationPage from "@/components/confirmation-page"
 import HotelInfo from "@/components/hotel-info"
 import RoomListing from "@/components/rooms"
+import AboutSection from "@/components/about-section"
+import RoomShowcaseSection from "@/components/room-showcase-section"
+import ContactSection from "@/components/contact-section"
 
 export default function Home() {
   const [currentStep, setCurrentStep] = useState<"home" | "results" | "details" | "booking" | "confirmation">("home")
@@ -47,7 +50,10 @@ export default function Home() {
         <>
           <HeroSection />
           <SearchForm onSearch={handleSearch} />
-          <HotelInfo />
+          <AboutSection />
+          <RoomShowcaseSection />
+          {/* <HotelInfo /> */}
+          <ContactSection />
         </>
       )}
 

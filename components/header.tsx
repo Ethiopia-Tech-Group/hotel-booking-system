@@ -24,7 +24,7 @@ export default function Header() {
                 <span className="text-primary-foreground font-bold text-lg">H</span>
               </div>
               <span className="ml-2 text-xl font-light text-foreground">
-                Luxury Hotel
+                Hyatt Hotel
               </span>
             </motion.div>
           </Link>
