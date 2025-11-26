@@ -43,7 +43,12 @@ export default function Header() {
             >
               Rooms
             </Link>
-           
+            <Link
+              href="/#amenities"
+              className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
+            >
+              Amenities
+            </Link>
             <Link
               href="/#about"
               className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors"

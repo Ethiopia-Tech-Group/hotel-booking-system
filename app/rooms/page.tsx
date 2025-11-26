@@ -789,7 +789,7 @@ export default function RoomListing() {
                     disabled={!room.available}
                     className="bg-accent text-accent-foreground px-6 py-2 rounded-md hover:bg-accent/90 transition-colors duration-300 disabled:opacity-50 disabled:cursor-not-allowed font-medium text-sm"
                   >
-                    {room.available ? 'Book Now' : 'Unavailable'}
+                    {room.available ? 'View Detail' : 'Unavailable'}
                   </button>
                 </div>
               </div>

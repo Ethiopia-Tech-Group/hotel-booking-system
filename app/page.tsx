@@ -13,6 +13,9 @@ import RoomListing from "@/components/rooms"
 import AboutSection from "@/components/about-section"
 import RoomShowcaseSection from "@/components/room-showcase-section"
 import ContactSection from "@/components/contact-section"
+import AmenitiesSection from "@/components/amenities-section"
+import GallerySection from "@/components/gallery-section"
+import PetPolicySection from "@/components/pet-policy-section"
 
 export default function Home() {
   const [currentStep, setCurrentStep] = useState<"home" | "results" | "details" | "booking" | "confirmation">("home")
@@ -52,7 +55,10 @@ export default function Home() {
           <SearchForm onSearch={handleSearch} />
           <AboutSection />
           <RoomShowcaseSection />
+          <AmenitiesSection />
+          <GallerySection />
           {/* <HotelInfo /> */}
+          <PetPolicySection />
           <ContactSection />
         </>
       )}
