@@ -31,7 +31,7 @@ export default function HeroSection() {
             animate={{ opacity: 1 }}
             transition={{ duration: 1, delay: 0.2 }}
           >
-            Hyatt Addis Ababa
+            Hotel Booking
           </motion.h1>
 
           <motion.p
@@ -51,7 +51,7 @@ export default function HeroSection() {
           >
             <div className="inline-flex items-center gap-2 text-sm text-accent">
               <div className="w-8 h-px bg-accent" />
-              <span>Premier Hyatt Hotel</span>
+              <span>Premier Hotel Booking</span>
               <div className="w-8 h-px bg-accent" />
             </div>
           </motion.div>

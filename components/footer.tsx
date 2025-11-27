@@ -14,7 +14,7 @@ export default function Footer() {
               <div className="h-8 w-8 bg-primary rounded-md flex items-center justify-center">
                 <span className="text-primary-foreground font-bold text-lg">H</span>
               </div>
-              <span className="text-xl font-light text-foreground">Hyatt Hotel</span>
+              <span className="text-xl font-light text-foreground">Hotel Booking</span>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed">
               Experience authentic Ethiopian hospitality with modern luxury in the heart of Addis Ababa.
@@ -66,8 +66,8 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="h-4 w-4 text-muted-foreground" />
-                <a href="mailto:info@luxuryhotel.et" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                  info@luxuryhotel.et
+                <a href="mailto:info@hotelbooking.et" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                  info@hotelbooking.et
                 </a>
               </li>
             </ul>
@@ -113,15 +113,10 @@ export default function Footer() {
         <div className="mt-12 pt-8 border-t border-border">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm text-muted-foreground">
-              © {currentYear} Hyatt Hotel. All rights reserved.
+              © {currentYear} Hotel Booking. All rights reserved.
             </p>
-            <div className="flex gap-6">
-              <Link href="/privacy" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                Privacy Policy
-              </Link>
-              <Link href="/terms" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                Terms of Service
-              </Link>
+            <div className="flex gap-6 text-sm">
+              <p>Powered By <a href="https://etg.et/" className="hover:text-blue-700" target="_blank">Ethiopia Tech Group</a></p>
             </div>
           </div>
         </div>

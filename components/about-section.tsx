@@ -40,7 +40,7 @@ export default function AboutSection() {
           >
             <img
               src="/luxury-hotel-room-modern-design.jpg"
-              alt="Hyatt Hotel Interior"
+              alt="Hotel Booking Interior"
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
@@ -62,7 +62,7 @@ export default function AboutSection() {
             </div>
 
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Hyatt Hotel stands as a beacon of Ethiopian hospitality in the heart of Addis Ababa. 
+              Hotel Booking stands as a beacon of Ethiopian hospitality in the heart of Addis Ababa. 
               With stunning views of the historic Entoto Mountains, we offer an unparalleled blend 
               of modern luxury and authentic cultural experiences.
             </p>
